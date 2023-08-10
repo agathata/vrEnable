@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    color: #E9E6D0; /* for text */
+    background-color: #113043;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.05rem;
+}
+button {
+    font-size: 0.95rem;
+    border-radius: 0.5rem;
+    border-width: 2px!important;
+    height: 45px;
+    width: 145px;
+}
+b {
+    font-weight: 600;
+}
+
+#header {
+    height: 4.3rem;
+    padding: 0.35rem;
+    padding-left: 0.675rem;
+    background-color: #E9E6D0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-tab {
+    padding: 1.8rem;
+}
+.header-tab > a {
+    text-decoration: none;
+    color: #113043;
+}
+
+/* #content */
+#section-1 {
+    background-color: #E79E20;
+    height: 37.2rem;
+    min-height: 37.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+    #section-1 > div {
+        padding-left: 5.4rem;
+        padding-top: 8.3rem;
+        display: block;
+    }
+        #title {
+            color: #F1F1E4;
+            font-family: "Comfortaa";
+            font-size: 4.5rem;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+        #catch-line {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    #section-1 > img {
+        padding: 4.2rem;
+        width: 42.5rem;
+        max-width: calc(100vw - 700px);
+        object-fit: contain;
+    }
+#section-2 {
+    background-color: #E9E6D0;
+    color: #113043;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+   #section-2 button {
+        background-color: #E9E6D0;
+        color: #113043;
+        border: solid #E79E20;
+        margin-left: calc(50% - 145px / 2);
+    }
+    #details {
+        display: flex;
+        width: calc(80% + 3.5rem + 5px);
+        margin: 5rem auto 0 auto;
+    }
+    /* devblog entries */
+    .entry {
+        margin-top: 5rem!important;
+    }
+    .video {
+        width: 100%;
+        height: calc(60vw * 9 / 16);
+    }
+    .date {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-family: "Comfortaa";
+    }
+    .description {
+        margin: 2rem 3rem 2.5rem 3rem;
+    }
+
+#footer {
+    display: flex;
+    height: 4.3rem;
+    padding: 0.35rem;
+    padding-left: 0.675rem;
+}
+    #copyright {
+        color: #E9E6D080;
+        align-self: center;
+        padding-left: 1.3rem;
+        font-size: 0.8rem;
+    }
+
+
+.floating-box{
+    width: 60%;
+    margin: auto;
+    padding: 1.5rem 1.5rem 2rem 2rem;
+    border-left: 5px solid #E79E20;
+    background-color: #E9E6D0;
+    filter: drop-shadow(0.2rem 0.2rem 0.25rem #11304320);
+    line-height: 1.5rem;
+}
+.features-list > .floating-box {
+    width: 100%;
+    margin: 1rem 0;
+}
+.floating-box > .date, .floating-box > .description > div {
+    margin-bottom: 1rem;
+}
+
+.justify-content-end {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.flex-row {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}

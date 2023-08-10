@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>vrEnable - Development Blog</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap">
+    </head>
+    <body>
+        <div id="header">
+            <a target href="index.html"><img src="images/logos/vrEnable_Logo.png" alt="" height="100%"></a>
+            <div class="justify-content-end">
+                <ul class="flex-row" style="display: flex; list-style: none;">
+                    <li class="header-tab"><a target href="index.html">Home</a></li>
+                    <li class="header-tab"><a target href="about.html">About</a></li>
+                    <li class="header-tab"><a target href="devblog.html">Development Blog</a></li>
+                </ul>
+            </div>
+        </div> <!-- /header -->
+
+        <div id="content">
+            <div id="section-1">
+                <div>
+                    <div id="title">
+                        Development Blog
+                    </div>
+                    <!-- <div id="catch-line">
+                        Enhance workplace empathy with our unique VR training
+                    </div> -->
+                </div>
+                <img src="images/devblog-graphic.png" alt="" height="auto">
+            </div>
+            <div id="section-2"> <!-- reverse chronological -->
+                <div class="entry floating-box" style="margin-top: 0!important;">
+                    <div class="date">December 8th, 2022</div>
+                    <iframe class="video" src="https://www.youtube.com/embed/G676XEbt8-s" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="description">In our final few days of implementation we focused on polishing our product.  We added the final interaction tasks as well as 3D assets for the remaining grey-boxed objects.  Constructing several custom objects, textures, and materials helped tailor our product to fit the voice of our company and create cohesion throughout the setting of the product.  We populated the space with animated non-player coworkers and added an appropriate soundtrack to establish an active and more emersive office environment.  We also added unique sound effects to every task segment and a number of visual cues to give the user more instant feedback on what they had just completed.  Additionally in the user feedback, we made our intrusive thoughts more distracting and mixed in completable task instructions for added guidance if the user attempts to interact with a task that is momentarily inactive.  Finally, we framed the experience with start and end screens to give the user a sense of accomplishment.</div>
+                </div>
+                <div class="entry floating-box">
+                    <div class="date">December 5th, 2022</div>
+                    <iframe class="video" src="https://www.youtube.com/embed/x3cbPt-XDeo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="description">
+                        <div>At vrEnable, we're developing a training module designed for industry, simulating neurocognitive inputs faced by individuals with Attention Deficit Hyperactivity Disorder (ADHD).  Our training aims to increase empathy towards individuals with ADHD in the workplace.  For scene work, we made use of Blender to create a furnished office space as our scene, as well as numerous other 3D assets, including interactable kitchen items, printer elements, and computer accessories.</div>
+                        <div>Currently, our immersive experience features the following five tasks for users to complete: make coffee, eat lunch, send an email, print a meeting agenda, and speak with the boss.  Each of the these tasks are made up of various subtasks that must be completed in certain orders, forcing the user to switch back and forth between each of the main tasks, as someone with ADHD would naturally do.</div>
+                        <div>The tasks appear on a notesheet held in the user's virtual hand, and as the user completes each task, it is greyed out on the sheet.  To round out the experience, throughout the module, intrusive thoughts appear in the field of vision to simulate distractions, racing thoughts, and brain fog.  These thoughts consist of incompletable tasks such as "Did I do my taxes?" to put pressure on the user's attention.  We've made significant progress toward completing implementation of all five tasks for this deliverable.  The module ends when all parts of the five tasks are complete.</div>
+                        <div>For movement controls, we developed a joystick-centered system that is significantly more intuitive to the general public than the default teleporting system.  The left joystick controls forward, backward, and sideways movement while the right joystick can be used to rotate the facing direction in either direction by 45 degrees at a time.  Basic camera movement is controlled via head turning in the VR headset.  Additionally, the joystick button on the left controller can be held down for increased movement speed.</div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- /content -->
+
+        <div id="footer">
+            <a target href="index.html"><img src="images/logos/vrEnable_Logo_Wide_wDrop.png" alt="" height="100%"></a>
+            <div id="copyright">&copy; 2022 Crazier Chicken. All rights reserved. &ensp; | &ensp; Design: August Ta-Goetz</div>
+        </div> <!-- /footer -->
+    </body>
+</html>
